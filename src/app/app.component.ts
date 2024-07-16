@@ -18,5 +18,8 @@ export class AppComponent implements OnInit {
     this.route.navigateByUrl('Home');
 
   }
+   appDestroyEvent() {
+   this.route.navigateByUrl('About Me');
+ }
 
 }
